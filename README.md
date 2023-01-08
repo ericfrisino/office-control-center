@@ -11,7 +11,7 @@ For now its just WS2812B LED lights.
  + `-k` `--kill` : Use this command to turn off all pixels. If used in conjunction with `-s` it will only turn off that strip.
  + `-b` `--brightness` : How bright should the pixels show between `0` and `1` inclusive.
  
- ## Light Strips
+ ## Available Light Strips
  
  For development purpouses I will be using 2 strips of lights:
  1. `monitor` : 50 WS2812B LED lights.
