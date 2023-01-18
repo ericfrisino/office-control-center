@@ -5,11 +5,11 @@ Just a fun project for me to mess around with controlling different physical thi
 For now its just WS2812B LED lights.
 
 ## Command Line Arguments
- + `-s` `--strip` : Select strip to affect. Currently 2 options: `monitor` or `shelf`.
- + `-c` `--color` : What color would you like to turn the LEDs? Current options: `white`, `red`, `blue` `purple`.
- + `-rgb` `--rgb` : Enter RGB value as such `"000,000,000"`.
- + `-k` `--kill` : Use this command to turn off all pixels. If used in conjunction with `-s` it will only turn off that strip.
  + `-b` `--brightness` : How bright should the pixels show between `0` and `1` inclusive.
+ + `-c` `--color` : What color would you like to turn the LEDs? Current options: `white`, `red`, `blue` `purple`.
+ + `-k` `--kill` : Use this command to turn off all pixels. If used in conjunction with `-s` it will only turn off that strip.
+ + `-rgb` `--rgb` : Enter RGB value as such `"000,000,000"`.
+ + `-s` `--strip` : Select strip to affect. Currently 2 options: `monitor` or `shelf`.
  
  ## Available Light Strips
  

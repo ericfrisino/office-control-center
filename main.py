@@ -8,11 +8,11 @@ import neopixel
 
 # Process Arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('-s', '--strip', type=str, help='Select strip to affect.\nCurrently 2 options: `monitor` or `shelf`')
-parser.add_argument('-c', '--color', type=str, help='What color would you like to turn the LEDs?\nCurrent options: `white`, `red`, `blue` `purple`')
-parser.add_argument('-rgb', '--rgb', type=str, help="Enter RGB value as such `000,000,000`")
-parser.add_argument('-k', '--kill', action='store_true', help="Use this command to turn off all pixels.\nIf used in conjunction with -s it will only turn off that strip.")
 parser.add_argument('-b', '--brightness', type=float, help="How bright should the pixels show between 0 and 1")
+parser.add_argument('-c', '--color', type=str, help='What color would you like to turn the LEDs?\nCurrent options: `white`, `red`, `blue` `purple`')
+parser.add_argument('-k', '--kill', action='store_true', help="Use this command to turn off all pixels.\nIf used in conjunction with -s it will only turn off that strip.")
+parser.add_argument('-rgb', '--rgb', type=str, help="Enter RGB value as such `000,000,000`")
+parser.add_argument('-s', '--strip', type=str, help='Select strip to affect.\nCurrently 2 options: `monitor` or `shelf`')
 args = parser.parse_args()
 
 brightness = 1
