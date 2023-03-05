@@ -17,3 +17,5 @@ For now its just WS2812B LED lights.
  1. `monitor` : 50 WS2812B LED lights.
  2. `shelf` : 500 WS2812B LED lights.
  
+ ## Roadmap
+  + [ ] Count and figure out the LEDs to light all the art on the shelves, and make arguments `-a` `--art` to switch from whatever mode they are currently in to just light the art.
